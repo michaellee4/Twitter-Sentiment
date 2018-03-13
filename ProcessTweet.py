@@ -1,5 +1,6 @@
 import string, re
 
+#A bunch of Regex expressions to clean out the tweets
 
 def strip_emojis(text):
     RE_EMOJI = re.compile('[\U00010000-\U0010ffff]', flags=re.UNICODE)
